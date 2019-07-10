@@ -13,11 +13,11 @@ print ("# https://github.com/Sanix-Darker   #")
 print ("#####################################")
 
 # The link of the website
-url = input("\nEnter URL:")
+url = 'https://classic.planetromeo.com'
 # The userfield in the form of the login
-userField = input("\nEnter the User Field:")
+userField = 'Profile Name'
 # The passwordfield in the form
-passwordField = input("\nEnter the Password field:")
+passwordField = 'Password'
 # list of potential incorrect message in the page if it doesn't succeed
 incorrectMessage = ['error', 'required error']
 # list of potential success message in the page if it succeed
